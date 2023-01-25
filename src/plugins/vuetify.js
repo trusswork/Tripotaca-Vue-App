@@ -13,9 +13,6 @@ export default createVuetify(
       themes: {
         light: {
           primary: "#C1040C",
-          // secondary: '#b0bec5',
-          // accent: '#8c9eff',
-          // error: '#b71c1c',
         },
       },
     },

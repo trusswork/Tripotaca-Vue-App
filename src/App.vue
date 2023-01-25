@@ -5,6 +5,7 @@
     <AboutUs />
     <SwiperSlider />
     <ListWithUs />
+    <SwiperPackages />
     <Footer />
 
 
@@ -16,7 +17,8 @@ import NavBar from './components/NavBar.vue';
 import Header from './components/HeaderComp.vue';
 import AboutUs from './components/AboutUs.vue';
 import ListWithUs from './components/listWithUs.vue';
-import SwiperSlider from './components/SwiperSlider.vue';
+import SwiperSlider from './components/SwiperHotels.vue';
+import SwiperPackages from "./components/SwiperPackages.vue"
 import Footer from './components/FooterComp.vue'
 
 
@@ -29,7 +31,8 @@ export default {
     AboutUs,
     ListWithUs,
     Footer,
-    SwiperSlider
+    SwiperSlider,
+    SwiperPackages
   },
 
   data: () => ({
